@@ -17,6 +17,13 @@ export class DataBindingComponent implements OnInit {
 
   cursoAngular: boolean = true;
 
+  nome: string = 'abc';
+
+  pessoa = {
+    nome: 'def',
+    idade: 20
+  }
+
   getValor(){
     return 1;
   }
